@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.navigation-bar {
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.navigation-bar .ant-layout-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #290001;
+}
+
+.navigation-bar .ant-menu {
+  background-color: #290001 !important;
+  margin-top: -17px;
+}
+
+.navigation-bar .ant-menu-item {
+  border-radius: 15px;
+  margin-right: 10px;
+  font-size: larger;
+  font-weight: bolder;
+  margin-top: -100px !important;
+}
+
+.navigation-bar .ant-menu-item:hover {
+  background-color: #532e1c !important;
+}
+
+.navigation-bar .ant-menu-item-selected {
+  font-style: unset;
+  font-weight: 1200;
+  background-color: #290001 !important;
+}
+
+.navigation-bar .logo {
+  height: 70px;
+  margin-top: 10px;
+  margin-right: 12px;
+}
+/*# sourceMappingURL=index.css.map */
