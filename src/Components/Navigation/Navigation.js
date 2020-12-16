@@ -28,7 +28,7 @@ class Navigation extends Component {
             <Header>
                <Menu className = "main-menu" theme="dark animated fadeInRight" mode="horizontal" defaultSelectedKeys={['1']}>
                   <Menu.Item className = "title-logo" key="1">KOPI</Menu.Item>
-                 <img className = "logo animated pulse infinite" src={logo} alt = "logo"/>
+                  <Menu.Item className = "title-logo" key="1"><img className = "logo animated pulse infinite" src={logo} alt = "logo"/></Menu.Item> 
                   <Menu.Item className = "title-logo" key="3">TEH</Menu.Item>
                </Menu>
             </Header>

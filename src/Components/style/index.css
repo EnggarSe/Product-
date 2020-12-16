@@ -78,9 +78,9 @@
   background-color: #290001;
 }
 
-.navigation-bar .ant-menu {
+.navigation-bar .main-menu {
   background-color: #290001 !important;
-  margin-top: -17px;
+  margin-top: 8px;
 }
 
 .navigation-bar .ant-menu-item {
