@@ -106,25 +106,30 @@
   margin-right: 12px;
 }
 
-.navigation-bar .ant-layout-footer {
+.ant-layout-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: black !important;
 }
 
-.ant-menu-item-active {
+.ant-layout-footer .ant-menu-item-active {
   font-weight: 1200;
   background-color: black !important;
 }
 
-.social-media:hover {
+.ant-layout-footer .menu-social-media {
+  background-color: black !important;
+}
+
+.ant-layout-footer .social-media:hover {
   height: 45px;
 }
 
-.social-media {
+.ant-layout-footer .social-media {
   height: 40px;
   margin-top: 0px;
   margin-right: 10px;

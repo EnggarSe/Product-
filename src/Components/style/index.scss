@@ -89,20 +89,26 @@
 
    
    
-   .ant-layout-footer{
-      display: flex;
-      justify-content: center;
-   }
+   
  }
- .ant-menu-item-active{
-   font-weight: 1200;
+ .ant-layout-footer{
+   display: flex;
+   justify-content: center;
    background-color: black !important;
+   .ant-menu-item-active{
+      font-weight: 1200;
+      background-color: black !important;
+   }
+   .menu-social-media{
+      background-color: black !important;
+   }
+   .social-media:hover {
+      height: 45px;
+    }
+    .social-media {
+      height : 40px;
+      margin-top: 0px;
+      margin-right: 10px;
+    }
 }
-.social-media:hover {
-   height: 45px;
- }
- .social-media {
-   height : 40px;
-   margin-top: 0px;
-   margin-right: 10px;
- }
+ 
