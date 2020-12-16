@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
 .site-layout-content {
    min-height: 280px;
    padding: 24px;
    background: #fff;
+ }
+
+ .body-coffee{
+    background: #290001 ;
  }
  #components-layout-demo-top .logo {
    float: left;
@@ -17,6 +22,39 @@
    margin: 16px 0 16px 24px;
  }
 
+ .ant-layout-content{
+   background-color: #290001;
+ }
+ .description{
+   font-family: 'Yeseva One', cursive;
+   position: relative;
+   margin-left: 80px;
+   margin-top: 65px;
+   .title{
+      color:#A58860;
+      font-weight: 500;
+      font-size: 65px;
+   }
+   .royal-aro{
+      margin-top: -230px;
+      margin-bottom: 30px;
+      margin-left: 300px;
+   }
+   .title2{
+      color:#A58860;
+      font-weight: 400;
+      font-size: 25px;
+      display: flex;
+      justify-content: center;
+      margin-top: -30px;
+   }
+   
+ }
+ 
+ .body-coffee-sider{
+   background-color: #290001 !important;
+   width : 300px !important;
+ }
  .navigation-bar{
    font-family: 'Raleway', sans-serif !important;
     .ant-layout-header{
@@ -30,13 +68,13 @@
     }
     .ant-menu-item{
        border-radius : 15px;
-       margin-right: 10px;
+       margin-right: 0px;
        font-size: larger;
        font-weight: bolder;
        margin-top: -100px !important;
        
     }
-    .ant-menu-item:hover{
+    .title-logo:hover{
        background-color: #532e1c !important;
     }
     .ant-menu-item-selected{
@@ -48,4 +86,23 @@
        margin-top: 10px;
        margin-right: 12px;
     }
+
+   
+   
+   .ant-layout-footer{
+      display: flex;
+      justify-content: center;
+   }
+ }
+ .ant-menu-item-active{
+   font-weight: 1200;
+   background-color: black !important;
+}
+.social-media:hover {
+   height: 45px;
+ }
+ .social-media {
+   height : 40px;
+   margin-top: 0px;
+   margin-right: 10px;
  }
